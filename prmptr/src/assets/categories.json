@@ -1,0 +1,1131 @@
+{
+    "categories": [
+      {
+            "name": "Subject & Action",
+            "description": "Start with the subject and action of your image.",
+            "options": []  
+      },
+      {
+        "name": "Medium",
+        "description": "Choose the material or method used to create your image.",
+        "maxSelections": 1,
+        "options": [
+          {
+            "name": "Film Photo",
+            "promptText": "film photograph of",
+            "previewImage": "/previews/medium_filmphoto.jpg"
+          },
+          {
+            "name": "Digital Photo",
+            "promptText": "digital photo of",
+            "previewImage": "/previews/medium_photo.jpg"
+          },
+          {
+            "name": "3D Render",
+            "promptText": "3D render of",
+            "previewImage": "/previews/medium_3drender.jpg"
+          },
+          {
+            "name": "Digital Illustration",
+            "promptText": "digital illustration of",
+            "previewImage": "/previews/medium_illustration.jpg"
+          },
+          {
+            "name": "Watercolor",
+            "promptText": "watercolor painting of",
+            "previewImage": "/previews/medium_watercolor.jpg"
+          },
+          {
+            "name": "Oil Painting",
+            "promptText": "oil painting of",
+            "previewImage": "/previews/medium_oilpainting.jpg"
+          },
+          {
+            "name": "Digital Painting",
+            "promptText": "digital painting of",
+            "previewImage": "/previews/medium_digitalpainting.jpg"
+          },
+          {
+            "name": "Pencil",
+            "promptText": "graphite pencil sketch of",
+            "previewImage": "/previews/medium_pencil.jpg"
+          },
+          {
+            "name": "Colored Pencil",
+            "promptText": "colored pencil drawing of",
+            "previewImage": "/previews/medium_coloredpencil.jpg"
+          },
+          {
+            "name": "Charcoal",
+            "promptText": "charcoal drawing of",
+            "previewImage": "/previews/medium_charcoal.jpg"
+          },
+          {
+            "name": "Ink Pen",
+            "promptText": "ink pen drawing of",
+            "previewImage": "/previews/medium_inkpen.jpg"
+          },
+          {
+            "name": "Chalk",
+            "promptText": "white chalk drawing of",
+            "previewImage": "/previews/medium_chalk.jpg"
+          },
+          {
+            "name": "Conte Crayon",
+            "promptText": "conte crayon drawing of",
+            "previewImage": "/previews/medium_conte.jpg"
+          },
+          {
+            "name": "Pastel",
+            "promptText": "soft pastel drawing of",
+            "previewImage": "/previews/medium_pastel.jpg"
+          },
+          {
+            "name": "Gouache",
+            "promptText": "gouache painting of",
+            "previewImage": "/previews/medium_gouache.jpg"
+          },
+          {
+            "name": "Acrylic Paint",
+            "promptText": "acrylic painting of",
+            "previewImage": "/previews/medium_acrylic.jpg"
+          },
+          {
+            "name": "Stained Glass",
+            "promptText": "stained glass panel of",
+            "previewImage": "/previews/medium_stainedglass.jpg"
+          },
+          {
+            "name": "Fresco",
+            "promptText": "fresco mural of",
+            "previewImage": "/previews/medium_fresco.jpg"
+          },
+          {
+            "name": "Pixel Art",
+            "promptText": "8-bit pixel art of",
+            "previewImage": "/previews/medium_pixel.jpg"
+          },
+          {
+            "name": "Vector Art",
+            "promptText": "vector illustration of",
+            "previewImage": "/previews/medium_vectorart.jpg"
+          },
+          {
+            "name": "Daguerreotype",
+            "promptText": "daguerreotype photograph of",
+            "previewImage": "/previews/medium_daguerreotype.jpg"
+          },
+          {
+            "name": "Cyanotype",
+            "promptText": "cyanotype photograph of",
+            "previewImage": "/previews/medium_cyanotype.jpg"
+          },
+          {
+            "name": "Etching",
+            "promptText": "printed etching of",
+            "previewImage": "/previews/medium_etching.jpg"
+          },
+          {
+            "name": "Linocut",
+            "promptText": "linocut print of",
+            "previewImage": "/previews/medium_linocut.jpg"
+          },
+          {
+            "name": "Infared",
+            "promptText": "infared photograph of",
+            "previewImage": "/previews/medium_infared.jpg"
+          },
+          {
+            "name": "Polaroid",
+            "promptText": "polaroid photograph of",
+            "previewImage": "/previews/medium_polaroid.jpg"
+          },
+          {
+            "name": "Papercut",
+            "promptText": "cut paper artwork of",
+            "previewImage": "/previews/medium_papercut.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Composition",
+        "description": "Classic shot types and framing techniques. These can be further reinforced with a reference image.",
+        "maxSelections": 1,
+        "options": [
+          {
+            "name": "Extreme Close-Up",
+            "promptText": "extreme close-up detail ",
+            "previewImage": "/previews/composition_extremecloseup.jpg"
+          },
+          {
+            "name": "Close-Up",
+            "promptText": "close-up ",
+            "previewImage": "/previews/composition_closeup.jpg"
+          },
+          {
+            "name": "Medium Shot",
+            "promptText": "medium cropped ",
+            "previewImage": "/previews/composition_medium.jpg"
+          },
+          {
+            "name": "Long Shot",
+            "promptText": "long distance ",
+            "previewImage": "/previews/composition_wide.jpg"
+          },
+          {
+            "name": "Extreme Wide Angle",
+            "promptText": "extreme wide angle ",
+            "previewImage": "/previews/composition_extremewide.jpg"
+          },    
+          {
+            "name": "Over-the-Shoulder",
+            "promptText": "over-the-shoulder OTS ",
+            "previewImage": "/previews/composition_overtheshoulder.jpg"
+          },
+          {
+            "name": "High Angle",
+            "promptText": "high angle camera above ",
+            "previewImage": "/previews/composition_highangle.jpg"
+          },
+          {
+            "name": "Low Angle",
+            "promptText": "low angle camera below ",
+            "previewImage": "/previews/composition_lowangle.jpg"
+          },
+          {
+            "name": "Bird's Eye View",
+            "promptText": "bird's eye view ",
+            "previewImage": "/previews/composition_birdseye.jpg"
+          },
+          {
+            "name": "Centered Composition",
+            "promptText": "centered composition ",
+            "previewImage": "/previews/composition_centered.jpg"
+          },    
+          {
+            "name": "Reflected Shot",
+            "promptText": "mirror reflected ",
+            "previewImage": "/previews/composition_reflected.jpg"
+          },
+          {
+            "name": "Pyramid Composition",
+            "promptText": "pyramid composition ",
+            "previewImage": "/previews/composition_pyramid.jpg"
+          },
+          {
+            "name": "Symmetrical Composition",
+            "promptText": "symmetrical composition ",
+            "previewImage": "/previews/composition_symmetrical.jpg"
+          },
+          {
+            "name": "Asymmetrical Composition",
+            "promptText": "asymmetrical composition ",
+            "previewImage": "/previews/composition_asymmetrical.jpg"
+          },    
+          {
+            "name": "Isometric",
+            "promptText": "isometric composition ",
+            "previewImage": "/previews/composition_isometric.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Artistic Style",
+        "description": "These describe the visual or aesthetic approach of the image:",
+        "options": [
+          {
+            "name": "Realism",
+            "promptText": "realistic, ",
+            "previewImage": "/previews/style_realism.jpg"
+          },
+          {
+            "name": "Hyper-Realism",
+            "promptText": "hyper-realistic, ",
+            "previewImage": "/previews/style_hyperrealism.jpg"
+          },
+          {
+            "name": "Cinematic",
+            "promptText": "cinematic, ",
+            "previewImage": "/previews/style_cinematic.jpg"
+          },
+          {
+            "name": "Surrealism",
+            "promptText": "famous surrealist, ",
+            "previewImage": "/previews/style_surrealism.jpg"
+          },
+          {
+            "name": "Minimalism",
+            "promptText": "minimalistic design, ",
+            "previewImage": "/previews/style_minimalism.jpg"
+          },
+          {
+            "name": "Maximalism",
+            "promptText": "bright maximalistic, ",
+            "previewImage": "/previews/style_maximalism.jpg"
+          },
+          {
+            "name": "Avant-Garde",
+            "promptText": "avant-garde, ",
+            "previewImage": "/previews/style_avantgarde.jpg"
+          },
+          {
+            "name": "Impressionism",
+            "promptText": "impressionist, ",
+            "previewImage": "/previews/style_impressionism.jpg"
+          },
+          {
+            "name": "Abstract",
+            "promptText": "abstract, ",
+            "previewImage": "/previews/style_abstract.jpg"
+          },
+          {
+            "name": "Expressionism",
+            "promptText": "expressionist, ",
+            "previewImage": "/previews/style_expressionism.jpg"
+          },
+          {
+            "name": "Cubism",
+            "promptText": "cubist, ",
+            "previewImage": "/previews/style_cubism.jpg"
+          },
+          {
+            "name": "Geometric",
+            "promptText": "geometric, ",
+            "previewImage": "/previews/style_geometric.jpg"
+          },
+          {
+            "name": "Textured",
+            "promptText": "textured, ",
+            "previewImage": "/previews/style_textured.jpg"
+          },
+          {
+            "name": "Psychedelic",
+            "promptText": "psychedelic, ",
+            "previewImage": "/previews/style_psychedelic.jpg"
+          },
+          {
+            "name": "Chaotic",
+            "promptText": "chaotic, ",
+            "previewImage": "/previews/style_chaotic.jpg"
+          },
+          {
+            "name": "Gothic",
+            "promptText": "gothic, ",
+            "previewImage": "/previews/style_gothic.jpg"
+          },
+          {
+            "name": "Vaporwave",
+            "promptText": "vaporwave style, ",
+            "previewImage": "/previews/style_vaporwave.jpg"
+          },
+          {
+            "name": "Synthwave",
+            "promptText": "synthwave style, ",
+            "previewImage": "/previews/style_synthwave.jpg"
+          },
+          {
+            "name": "Detailed",
+            "promptText": "extremely detailed, ",
+            "previewImage": "/previews/style_detailed.jpg"
+          },
+          {
+            "name": "Storyboard",
+            "promptText": "In a classic storyboard style with limited details, ",
+            "previewImage": "/previews/style_storyboard.jpg"
+          },
+          {
+            "name": "Concept Art",
+            "promptText": "concept art style, ",
+            "previewImage": "/previews/style_conceptart.jpg"
+          },
+          {
+            "name": "Comic",
+            "promptText": "comic style, ",
+            "previewImage": "/previews/style_comic.jpg"
+          },
+          {
+            "name": "Manga",
+            "promptText": "manga style, ",
+            "previewImage": "/previews/style_manga.jpg"
+          },
+          {
+            "name": "Anime",
+            "promptText": "anime style, ",
+            "previewImage": "/previews/style_anime.jpg"
+          }
+          
+        ]
+      },
+      {
+        "name": "Theme",
+        "description": "These describe the genre or narrative theme of the image:",
+        "options": [
+          {
+            "name": "Sci-Fi",
+            "promptText": "modern sci-fi, ",
+            "previewImage": "/previews/theme_scifi.jpg"
+          },
+          {
+            "name": "Retrofuturism",
+            "promptText": "retrofuturist style, ",
+            "previewImage": "/previews/theme_retrofuturism.jpg"
+          },
+          {
+            "name": "Cyberpunk",
+            "promptText": "cyberpunk themed, ",
+            "previewImage": "/previews/theme_cyberpunk.jpg"
+          },
+          {
+            "name": "Steampunk",
+            "promptText": "steampunk inspired, ",
+            "previewImage": "/previews/theme_steampunk.jpg"
+          },
+          {
+            "name": "Fantasy",
+            "promptText": "high fantasy themed, ",
+            "previewImage": "/previews/theme_fantasy.jpg"
+          },
+          {
+            "name": "Dystopian",
+            "promptText": "dystopian, ",
+            "previewImage": "/previews/theme_dystopian.jpg"
+          },
+          {
+            "name": "Utopian",
+            "promptText": "utopian, ",
+            "previewImage": "/previews/theme_utopian.jpg"
+          },
+          {
+            "name": "Mythological",
+            "promptText": "ancient mythological, ",
+            "previewImage": "/previews/theme_mythological.jpg"
+          },
+          {
+            "name": "Horror",
+            "promptText": "horror, ",
+            "previewImage": "/previews/theme_horror.jpg"
+          },
+          {
+            "name": "Adventure",
+            "promptText": "adventure themed, ",
+            "previewImage": "/previews/theme_adventure.jpg"
+          },
+          {
+            "name": "Post-Apocalyptic",
+            "promptText": "post-apocalyptic future, ",
+            "previewImage": "/previews/theme_postapocalyptic.jpg"
+          },
+          {
+            "name": "Western",
+            "promptText": "old western themed, ",
+            "previewImage": "/previews/theme_western.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Lighting",
+        "description": "The lighting style used in your scene.",
+        "maxSelections": 1,
+        "options": [
+           {
+                "name": "Natural",
+                "promptText": "lit with overcast natural lighting, ",
+                "previewImage": "/previews/lighting_natural.jpg"
+            },
+          {
+            "name": "Golden Hour",
+            "promptText": "in beautiful golden hour lighting, ",
+            "previewImage": "/previews/lighting_goldenhour.jpg"
+          },
+          {
+            "name": "Blue Hour",
+            "promptText": "in the very early morning lit with blue hour lighting, ",
+            "previewImage": "/previews/lighting_bluehour.jpg"
+          },
+          {
+            "name": "Studio",
+            "promptText": "lit with professional studio lighting for a clean and sharp image, ",
+            "previewImage": "/previews/lighting_studio.jpg"
+          },
+          {
+            "name": "Soft",
+            "promptText": "lit with diffused lighting creating soft shadows, ",
+            "previewImage": "/previews/lighting_soft.jpg"
+          },
+          {
+            "name": "Hard",
+            "promptText": "lit with hard lighting creating strong defined shadows, ",
+            "previewImage": "/previews/lighting_hard.jpg"
+          },
+          {
+            "name": "Three Point",
+            "promptText": "lit with 3-point studio lighting, ",
+            "previewImage": "/previews/lighting_3point.jpg"
+          },
+          {
+            "name": "Split",
+            "promptText": "lit with split lighting hiding one side in shadow for intense contrast, ",
+            "previewImage": "/previews/lighting_split.jpg"
+          },
+          {
+            "name": "Rembrandt",
+            "promptText": "lit with rembrandt lighting, ",
+            "previewImage": "/previews/lighting_rembrandt.jpg"
+          },
+          {
+            "name": "Silhouette",
+            "promptText": "lit from behind creating a strong silhouette, ",
+            "previewImage": "/previews/lighting_silhouette.jpg"
+          },
+          {
+            "name": "Top",
+            "promptText": "lit only with top-down lighting creating strong shadows on the neck, ",
+            "previewImage": "/previews/lighting_top.jpg"
+          },
+          {
+            "name": "Under",
+            "promptText": "illuminated exclusively by a harsh single light source from below its chin, forming eerie under-lighting and casting sharp shadows on cheeks and forehead, ",
+            "previewImage": "/previews/lighting_under.jpg"
+          },
+          {
+            "name": "Dramatic",
+            "promptText": "illuminated by dramatic lighting for intense contrast, ",
+            "previewImage": "/previews/lighting_dramatic.jpg"
+          },
+          {
+            "name": "Night",
+            "promptText": "at night illuminated by stars and moonlight, ",
+            "previewImage": "/previews/lighting_night.jpg"
+          },
+          {
+            "name": "Flat",
+            "promptText": " lit with flat, even lighting from the front with both sides in equal brightness, no shadows, ",
+            "previewImage": "/previews/lighting_flat.jpg"
+          },
+          {
+            "name": "Volumetric",
+            "promptText": "illuminated by streams of hazy volumetric god-rays, ",
+            "previewImage": "/previews/lighting_volumetric.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Tone",
+        "description": "Set the emotional tone or atmosphere for your image.",
+        "options": [
+          {
+            "name": "Vibrant",
+            "promptText": "vibrant, ",
+            "previewImage": "/previews/tone_vibrant.jpg"
+          },
+          {
+            "name": "Bright",
+            "promptText": "bright and joyful, ",
+            "previewImage": "/previews/tone_bright.jpg"
+          },
+          {
+            "name": "Moody",
+            "promptText": "moody and atmospheric, ",
+            "previewImage": "/previews/tone_moody.jpg"
+          },
+          {
+            "name": "Dark",
+            "promptText": "dark and ominous, ",
+            "previewImage": "/previews/tone_dark.jpg"
+          },
+          {
+            "name": "Playful",
+            "promptText": "playful, ",
+            "previewImage": "/previews/tone_playful.jpg"
+          },
+          {
+            "name": "Eerie",
+            "promptText": "eerie, ",
+            "previewImage": "/previews/tone_eerie.jpg"
+          },
+          {
+            "name": "Mysterious",
+            "promptText": "mysterious, ",
+            "previewImage": "/previews/tone_mysterious.jpg"
+          },
+          {
+            "name": "Powerful",
+            "promptText": "powerful, ",
+            "previewImage": "/previews/tone_powerful.jpg"
+          },
+          {
+            "name": "Calming",
+            "promptText": "calming, ",
+            "previewImage": "/previews/tone_calming.jpg"
+          },
+          {
+            "name": "Majestic",
+            "promptText": "majestic, ",
+            "previewImage": "/previews/tone_majestic.jpg"
+          },
+          {
+            "name": "Somber",
+            "promptText": "somber, ",
+            "previewImage": "/previews/tone_somber.jpg"
+          },
+          {
+            "name": "Dreamy",
+            "promptText": "dreamy, ",
+            "previewImage": "/previews/tone_dreamy.jpg"
+          },
+          {
+            "name": "Haunting",
+            "promptText": "haunting, ",
+            "previewImage": "/previews/tone_haunting.jpg"
+          },
+          {
+            "name": "Glamorous",
+            "promptText": "glamorous, ",
+            "previewImage": "/previews/tone_glamorous.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Environment",
+        "description": "The environment of your scene. Mix existing options with a custom prompt, or try AI Enhance to add extra details.",
+        "options": [
+          {
+            "name": "White Studio",
+            "promptText": "in a clean, well-lit studio with a solid white background and no distractions, ",
+            "previewImage": "/previews/env_whitestudio.jpg"
+          },
+          {
+            "name": "Product Shoot",
+            "promptText": "in a bright and airy studio with perfect lighting to highlight details and textures, ",
+            "previewImage": "/previews/env_productshoot.jpg"
+          },
+          {
+            "name": "Greenscreen",
+            "promptText": "in a vibrant studio with a seamless green screen for compositing, ",
+            "previewImage": "/previews/env_greenscreen.jpg"
+          },
+          {
+            "name": "Pop-Up Booth",
+            "promptText": "in a sleek and modern pop-up booth, ",
+            "previewImage": "/previews/env_popupbooth.jpg"
+          },
+          {
+            "name": "High-End Storefront",
+            "promptText": "in a luxurious high-end storefront with polished displays, ",
+            "previewImage": "/previews/env_highendstorefront.jpg"
+          },
+          {
+            "name": "Small Boutique",
+            "promptText": "in a cozy small boutique with curated items, ",
+            "previewImage": "/previews/env_smallboutique.jpg"
+          },
+          {
+            "name": "Pottery Studio",
+            "promptText": "in a warm pottery studio with handmade ceramics, ",
+            "previewImage": "/previews/env_potterystudio.jpg"
+          },
+          {
+            "name": "Urban Loft",
+            "promptText": "in a stylish urban loft with exposed brick walls and large industrial windows, ",
+            "previewImage": "/previews/env_urbanloft.jpg"
+          },
+          {
+            "name": "Scandinavian Kitchen",
+            "promptText": "in a bright Scandinavian kitchen with clean lines and light wood accents, ",
+            "previewImage": "/previews/env_scandinaviankitchen.jpg"
+          },
+          {
+            "name": "Boho Bedroom",
+            "promptText": "in a cozy bohemian bedroom with layered textiles and warm tones, ",
+            "previewImage": "/previews/env_bohobedroom.jpg"
+          },
+          {
+            "name": "Rustic Cabin",
+            "promptText": "in a rustic wooden cabin with a roaring fireplace and cozy furnishings, ",
+            "previewImage": "/previews/env_rusticcabin.jpg"
+          },
+          {
+            "name": "Velvet Drapery",
+            "promptText": "in a sophisticated setting with rich velvet drapery, ",
+            "previewImage": "/previews/env_velvet.jpg"
+          },   
+          {
+            "name": "Concrete Wall",
+            "promptText": "in a modern space with a textured concrete wall, ",
+            "previewImage": "/previews/env_concretewall.jpg"
+          },
+          {
+            "name": "Urban Street",
+            "promptText": "on a bustling urban street, ",
+            "previewImage": "/previews/env_urbanstreet.jpg"
+          },
+          {
+            "name": "City Rooftop",
+            "promptText": "on a city rooftop patio with panoramic skyline views, ",
+            "previewImage": "/previews/env_cityrooftop.jpg"
+          },
+          {
+            "name": "Abandoned City",
+            "promptText": "in an abandoned city with crumbling buildings and overgrown vegetation, ",
+            "previewImage": "/previews/env_abandonedcity.jpg"
+          },
+          {
+            "name": "Farmland",
+            "promptText": "in a picturesque farmland, ",
+            "previewImage": "/previews/env_farmland.jpg"
+          },
+          {
+            "name": "Beach",
+            "promptText": "on a beach with soft waves, sand, and a peaceful horizon, ",
+            "previewImage": "/previews/env_beach.jpg"
+          },
+          {
+            "name": "Woods",
+            "promptText": "in a dense forest with tall trees, dappled sunlight, and a serene atmosphere, ",
+            "previewImage": "/previews/env_woods.jpg"
+          },
+          {
+            "name": "Desert",
+            "promptText": "in a vast desert with rolling sand dunes and a blazing sun, ",
+            "previewImage": "/previews/env_desert.jpg"
+          },
+          {
+            "name": "Mountain Range",
+            "promptText": "in a majestic mountain range with snow-capped peaks and a dramatic skyline, ",
+            "previewImage": "/previews/env_mountains.jpg"
+          },
+          {
+            "name": "Underwater Coral",
+            "promptText": "in a vibrant underwater coral reef with colorful marine life and shimmering light, ",
+            "previewImage": "/previews/env_underwatercoral.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Fashion",
+        "description": "The fashion worn by the subject of your image.",
+        "options": [
+          {
+            "name": "Casual",
+            "promptText": "wearing comfortable and relaxed casual clothing, ",
+            "previewImage": "/previews/fashion_casual.jpg"
+          },
+          {
+            "name": "Streetwear",
+            "promptText": "in bold and trendy streetwear fashion, ",
+            "previewImage": "/previews/fashion_streetwear.jpg"
+          },
+          {
+            "name": "Athleisure",
+            "promptText": "in trendy athleisure fashion blending performance fabrics with casual style, ",
+            "previewImage": "/previews/fashion_athleisure.jpg"
+          },
+          {
+            "name": "Minimalist",
+            "promptText": "in simple and elegant minimalist fashion with clean lines and neutral tones, ",
+            "previewImage": "/previews/fashion_minimal.jpg"
+          },
+          {
+            "name": "Vintage",
+            "promptText": "in eclectic vintage fashion, featuring classic styles and retro patterns, ",
+            "previewImage": "/previews/fashion_vintage.jpg"
+          },
+          {
+            "name": "High Fashion",
+            "promptText": "in bold high fashion apparel, ",
+            "previewImage": "/previews/fashion_highfashion.jpg"
+          },
+          {
+            "name": "Business",
+            "promptText": "in sharp business attire, ",
+            "previewImage": "/previews/fashion_business.jpg"
+          },
+          {
+            "name": "Punk",
+            "promptText": "in edgy punk fashion, ",
+            "previewImage": "/previews/fashion_punk.jpg"
+          },
+          {
+            "name": "Gothic",
+            "promptText": "in dark and dramatic gothic fashion, ",
+            "previewImage": "/previews/fashion_gothic.jpg"
+          },
+          {
+            "name": "Bridal",
+            "promptText": "in elegant bridal attire, ",
+            "previewImage": "/previews/fashion_bridal.jpg"
+          },
+          {
+            "name": "Medieval",
+            "promptText": "in medieval attire, ",
+            "previewImage": "/previews/fashion_medieval.jpg"
+          },
+          {
+            "name": "Victorian",
+            "promptText": "in ornate victorian attire, ",
+            "previewImage": "/previews/fashion_victorian.jpg"
+          },
+          {
+            "name": "Renaissance",
+            "promptText": "in elaborate renaissance attire, featuring rich fabrics and historical details, ",
+            "previewImage": "/previews/fashion_renaissance.jpg"
+          },
+          {
+            "name": "Bohemian",
+            "promptText": "in free-spirited bohemian attire with flowing fabrics, earthy tones, and layered accessories, ",
+            "previewImage": "/previews/fashion_bohemian.jpg"
+          },
+          {
+            "name": "Military",
+            "promptText": "in structured military attire, ",
+            "previewImage": "/previews/fashion_military.jpg"
+          },
+          {
+            "name": "Future-Casual",
+            "promptText": "in sleek futuristic casual attire, ",
+            "previewImage": "/previews/fashion_futuristic.jpg"
+          },
+          {
+            "name": "Retro",
+            "promptText": "in cool retro attire, inspired by iconic styles of past decades, ",
+            "previewImage": "/previews/fashion_retro.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Time Period",
+        "description": "Additional setting details based on the time period.",
+        "maxSelections": 1,
+        "options": [
+            {
+              "name": "Prehistoric",
+              "promptText": "set in prehistoric times with primitive tools, wild landscapes, and early human settlements, ",
+              "previewImage": "/previews/era_prehistoric.jpg"
+            },
+            {
+              "name": "Ancient Egypt",
+              "promptText": "set during the era of Ancient Egypt, with towering pyramids, hieroglyph-covered walls, and pharaohs, ",
+              "previewImage": "/previews/era_egyptian.jpg"
+            },
+            {
+              "name": "Ancient Greece",
+              "promptText": "set in Ancient Greece, with marble temples, olive groves, and philosophers in togas, ",
+              "previewImage": "/previews/era_ancientgreece.jpg"
+            },
+            {
+              "name": "Roman Empire",
+              "promptText": "set in the grandeur of the Roman Empire, with monumental architecture, gladiators, and bustling forums, ",
+              "previewImage": "/previews/era_romanempire.jpg"
+            },
+            {
+              "name": "Medieval",
+              "promptText": "set in medieval times with stone castles, knights, and lush countryside villages, ",
+              "previewImage": "/previews/era_medieval.jpg"
+            },
+            {
+                "name": "Feudal Japan",
+                "promptText": "set during the feudal period of Japan, ",
+                "previewImage": "/previews/era_japan.jpg"
+            },
+            {
+              "name": "Victorian Era",
+              "promptText": "set in the Victorian era, with ornate architecture, gas lamps, and formal attire, ",
+              "previewImage": "/previews/era_victorian.jpg"
+            },
+            {
+              "name": "Industrial Revolution",
+              "promptText": "set during the Industrial Revolution, with steam-powered machinery and bustling factories, ",
+              "previewImage": "/previews/era_industrialrevolution.jpg"
+            },
+            {
+              "name": "1920s",
+              "promptText": "set in the roaring 1920s, with Art Deco style, jazz music, and flapper fashion, ",
+              "previewImage": "/previews/era_1920s.jpg"
+            },
+            {
+              "name": "1940s",
+              "promptText": "set in the 1940s, with wartime factories, vintage vehicles, and rationing, ",
+              "previewImage": "/previews/era_1940s.jpg"
+            },
+            {
+              "name": "1950s",
+              "promptText": "set in the 1950s, with retro diners and vintage cars, ",
+              "previewImage": "/previews/era_1950s.jpg"
+            },
+            {
+              "name": "1960s",
+              "promptText": "set in the 1960s, with psychedelic colors, peace movements, and rock-and-roll culture, ",
+              "previewImage": "/previews/era_1960s.jpg"
+            },
+            {
+              "name": "1970s",
+              "promptText": "set in the 1970s, with earthy tones, disco vibes, and bohemian aesthetics, ",
+              "previewImage": "/previews/era_1970s.jpg"
+            },
+            {
+                "name": "1980s",
+                "promptText": "set in the vibrant 1980s, with neon lights, arcade machines, and retro futurism, ",
+                "previewImage": "/previews/era_1980s.jpg"
+              },
+            {
+                "name": "1990s",
+                "promptText": "set in the 1990s, with grunge fashion, early tech aesthetics, and nostalgic charm, ",
+                "previewImage": "/previews/era_1990s.jpg"
+              },
+            {
+                "name": "Near Future",
+                "promptText": "set in a near-future setting with cutting-edge technology and advanced urban design, ",
+                "previewImage": "/previews/era_nearfuture.jpg"
+              }
+        ]
+      },
+      {
+        "name": "Color Palette",
+        "description": "The primary colors or tones used in the image.",
+        "options": [
+            {
+              "name": "Black and White",
+              "promptText": "in a classic black and white color scheme, with striking contrasts and no color, "
+            },
+            {
+              "name": "Grayscale",
+              "promptText": "in a muted grayscale palette, with soft gradations of gray tones, "
+            },
+            {
+              "name": "Sepia",
+              "promptText": "in a warm sepia tone, evoking a vintage and nostalgic feel, "
+            },
+            {
+              "name": "Neutral Tones",
+              "promptText": "in neutral tones, with shades of beige, cream, and taupe, "
+            },
+            {
+                "name": "Vibrant Colors",
+                "promptText": "with a vibrant palette, featuring bold and saturated hues, "
+              },
+              {
+                "name": "Neon Glow",
+                "promptText": "with a neon palette, showcasing bright and fluorescent colors, "
+              },
+              {
+                "name": "Rainbow",
+                "promptText": "with a rainbow palette, featuring all colors of the spectrum, "
+              },
+              {
+                "name": "Holographic",
+                "promptText": "with a holographic effect, blending iridescent and shimmering tones, "
+              },
+              {
+                "name": "Cinematic Teal and Orange",
+                "promptText": "with a cinematic teal and orange palette, creating a dramatic and modern look, "
+              },
+              {
+                "name": "Vintage Colors",
+                "promptText": "with a vintage-inspired palette, featuring faded yellows, greens, and sepia tones, "
+              },
+              {
+                "name": "Cyberpunk",
+                "promptText": "with a cyberpunk palette, featuring neon pinks, purples, and electric blues, "
+              },
+              {
+                "name": "Pastels",
+                "promptText": "with a soft pastel palette, featuring light pinks, blues, and yellows, "
+              },
+              {
+                "name": "Muted Colors",
+                "promptText": "with muted tones, using desaturated and subtle shades and low contrast, "
+              },
+              {
+                "name": "Earth Tones",
+                "promptText": "with earth tones, inspired by nature with browns, greens, and ochres, "
+              },
+              {
+                "name": "Red and Blue Split",
+                "promptText": "in a bold red and blue split color scheme, creating dramatic contrasts, "
+              },
+              {
+                "name": "Complementary Colors",
+                "promptText": "with complementary colors, using opposites on the color wheel for striking contrasts, "
+              },
+              {
+                "name": "Analogous Colors",
+                "promptText": "with an analogous palette, featuring colors adjacent on the wheel for harmony, "
+              },
+              {
+                "name": "High Contrast",
+                "promptText": "with a high-contrast palette, combining bright and dark tones for dramatic effect, "
+              },
+              {
+                "name": "Warm Colors",
+                "promptText": "with a warm color palette, featuring reds, oranges, and yellows, "
+              },
+              {
+                "name": "Cool Colors",
+                "promptText": "with a cool color palette, featuring blues, greens, and purples, "
+              },
+              {
+                "name": "Fiery Tones",
+                "promptText": "with fiery tones, dominated by vibrant reds, oranges, and yellows, "
+              },
+              {
+                "name": "Oceanic Colors",
+                "promptText": "with oceanic colors, featuring deep blues, turquoise, and seafoam greens, "
+              }
+        ]
+      },
+      {
+        "name": "Camera & Film",
+        "description": "These won't provide precise emulations, but can help provide a general feel.",
+        "maxSelections": 1,
+        "options":[
+            {
+              "name": "RED Cinema Camera",
+              "promptText": "shot on a RED cinema camera, capturing high-resolution, cinematic quality, "
+            },
+            {
+              "name": "Arri Alexa",
+              "promptText": "shot on an Arri Alexa camera, delivering crisp detail and beautiful graining, "
+            },
+            {
+              "name": "DSLR Camera",
+              "promptText": "shot on a professional DSLR camera with crisp details and dynamic range, "
+            },
+            {
+              "name": "Mirrorless Camera",
+              "promptText": "shot on a mirrorless camera, known for compact design and sharp imagery, "
+            },
+            {
+              "name": "GoPro",
+              "promptText": "shot on a GoPro, with wide angles and action-ready clarity, "
+            },
+            {
+              "name": "Drone Camera",
+              "promptText": "captured with a drone camera, offering sweeping aerial perspectives, "
+            },
+            {
+              "name": "iPhone",
+              "promptText": "shot on an iPhone, delivering clean, vibrant, and modern visuals, "
+            },
+            {
+                "name": "Kodak Portra 400",
+                "promptText": "shot with Kodak Portra 400 film, known for warm tones and fine grain, "
+              },
+              {
+                "name": "Kodak Ektar 100",
+                "promptText": "shot with Kodak Ektar 100 film, producing vivid colors and sharp details, "
+              },
+              {
+                "name": "Fujifilm Velvia 50",
+                "promptText": "shot with Fujifilm Velvia 50 film, renowned for rich saturation and contrast, "
+              },
+              {
+                "name": "Ilford HP5 Plus",
+                "promptText": "shot with Ilford HP5 Plus film, a classic black-and-white film with fine grain, "
+              },
+              {
+                "name": "Cinestill 800T",
+                "promptText": "shot with Cinestill 800T film, capturing cinematic tungsten tones, "
+              },
+              {
+                "name": "Polaroid Instant Film",
+                "promptText": "captured on Polaroid instant film, delivering vintage, soft-focus charm, "
+              },
+              {
+                "name": "16mm Film",
+                "promptText": "shot on 16mm film, with grainy textures and a nostalgic vibe, "
+              },
+              {
+                "name": "35mm Film",
+                "promptText": "shot on 35mm film, offering rich details and classic cinematic quality, "
+              },
+              {
+                "name": "IMAX Camera",
+                "promptText": "shot on an IMAX camera, delivering unparalleled detail and scale, "
+              },
+              {
+                "name": "Super 8 Film",
+                "promptText": "shot on Super 8 film, with nostalgic grain and soft colors, "
+              },
+              {
+                "name": "Pinhole Camera",
+                "promptText": "captured with a pinhole camera, creating soft edges and unique distortions, "
+              },
+              {
+                "name": "Infrared Photography",
+                "promptText": "captured with infrared photography, producing surreal tones and contrasts, "
+              },
+              {
+                "name": "Tilt-Shift Lens",
+                "promptText": "shot with a tilt-shift lens, creating miniature-like depth of field effects, "
+              },
+              {
+                "name": "Fisheye Lens",
+                "promptText": "captured with a fisheye lens, distorting perspective with wide, circular visuals, "
+              }
+        ]
+      },
+      {
+        "name": "Post Effects",
+        "description": "A variety of effects for post-processing for subtle adjustments and creative styles.",
+        "options": [
+            {
+              "name": "Bokeh",
+              "promptText": "with a beautiful bokeh effect, featuring soft, blurred background highlights, "
+            },
+            {
+              "name": "Motion Blur",
+              "promptText": "with dynamic motion blur, emphasizing speed and movement, "
+            },
+            {
+              "name": "Depth of Field",
+              "promptText": "with a shallow depth of field, focusing sharply on the subject while blurring the background, "
+            },
+            {
+              "name": "Gaussian Blur",
+              "promptText": "with a subtle Gaussian blur for a soft and dreamy effect, "
+            },
+            {
+                "name": "Vignette",
+                "promptText": "with a vignette effect, darkening the corners of the image for a classic look, "
+              },
+              {
+                "name": "Chromatic Aberration",
+                "promptText": "with chromatic aberration, creating a colorful halo around light sources, "
+              },
+              {
+                "name": "Lens Flare",
+                "promptText": "with a cinematic lens flare, adding streaks of light for a dramatic effect, "
+              },
+              {
+                "name": "Glow Effect",
+                "promptText": "with a radiant glow around the subject, creating a luminous aura, "
+              },
+              {
+                "name": "Halo Effect",
+                "promptText": "with a soft halo effect around the subject, adding a mystical glow, "
+              },
+              {
+                "name": "Dust and Scratches",
+                "promptText": "with dust and scratches for a retro, worn-out look, "
+              },
+              {
+                "name": "Glitch Effect",
+                "promptText": "with a glitch effect, distorting the image with digital noise and color shifts, "
+              },
+              {
+                "name": "Double Exposure",
+                "promptText": "with a double exposure effect, blending two overlapping images, "
+              },
+              {
+                "name": "Kaleidoscope Effect",
+                "promptText": "with a kaleidoscope effect, creating intricate mirrored patterns, "
+              },
+              {
+                "name": "Pixelation",
+                "promptText": "with a pixelated effect, giving the image a retro, low-resolution look, "
+              }
+        ]
+      }
+    ]
+  }
+  
