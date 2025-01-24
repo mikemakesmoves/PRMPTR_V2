@@ -220,7 +220,7 @@ function App() {
 
 
   return (
-    <div className="flex flex-col min-h-screen bg-prmptrblack">
+    <div className="flex flex-col min-h-screen bg-prmptrblack overflow-x-hidden">
       {/* Top Section - Make it sticky */}
       <div className="sticky top-0 z-50 w-full bg-prmptrwhite">
         {/* Header */}
@@ -241,7 +241,7 @@ function App() {
       </div>
 
       {/* Scrollable Content */}
-      <div className="flex-grow">
+      <div className="flex-grow overflow-x-hidden">
       
         {/* Main Section */}
         <div className="builder flex flex-col md:flex-row w-full max-w-[1280px] mx-auto px-4 py-8">
