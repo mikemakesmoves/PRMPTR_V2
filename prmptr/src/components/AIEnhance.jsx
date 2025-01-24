@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import enhancePrompt from '../services/enhanceService';
+import randomData from '../assets/random.json';
 
 function AIEnhance({ currentPrompt, onEnhancedPrompt }) {
   const [isLoading, setIsLoading] = useState(false);
