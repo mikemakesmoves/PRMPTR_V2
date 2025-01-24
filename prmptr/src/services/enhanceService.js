@@ -1,4 +1,4 @@
-const BACKEND_URL = 'http://localhost:3001';
+const BACKEND_URL = 'https://prmptr-v2.onrender.com';
 
 const enhancePrompt = async (prompt) => {
   try {
