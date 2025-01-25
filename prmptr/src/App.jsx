@@ -222,7 +222,7 @@ function App() {
   return (
     <div className="flex flex-col min-h-screen bg-prmptrblack overflow-x-hidden">
       {/* Top Section - Make it sticky */}
-      <div className="sticky top-0 z-50 w-full bg-prmptrwhite">
+      <div className=" top-0 w-full bg-prmptrwhite">
         {/* Header */}
         <Header />
         {/* Prompt Output Section */}
