@@ -220,7 +220,7 @@ function App() {
 
 
   return (
-    <div className="flex flex-col min-h-screen bg-prmptrblack overflow-x-hidden">
+    <div className="flex flex-col min-h-screen bg-prmptrblack overflow-x-hidden overscroll-none">
       {/* Top Section - No longer sticky */}
       <div className="w-full bg-prmptrwhite">
         <Header />
