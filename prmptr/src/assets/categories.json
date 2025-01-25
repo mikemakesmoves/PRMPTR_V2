@@ -1,11 +1,6 @@
 {
     "categories": [
       {
-            "name": "Subject & Action",
-            "description": "Start with the subject and action of your image.",
-            "options": []  
-      },
-      {
         "name": "Medium",
         "description": "Choose the material or method used to create your image.",
         "maxSelections": 1,
@@ -146,6 +141,11 @@
             "previewImage": "/previews/medium_papercut.jpg"
           }
         ]
+      },
+      {
+            "name": "Subject & Action",
+            "description": "Type in the subject and action of your image.",
+            "options": []  
       },
       {
         "name": "Composition",
