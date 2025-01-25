@@ -68,15 +68,15 @@ function CategoryOptions({
         {!isSubjectCategory && filteredOptions.map((option) => {
           const isSelected = selectedOptions?.includes(option.name) || false;
           return (
-            <div key={option.name} className="relative">
+            <div key={option.name} className="relative w-full md:w-auto">
               <button
                 onClick={() => onOptionToggle(option.name)}
                 onMouseEnter={() => setHoveredOption(option)}
                 onMouseLeave={() => setHoveredOption(null)}
-                className={`inline-flex items-center p-2 ${
+                className={`w-full md:w-auto inline-flex items-center justify-between p-3 md:p-2 text-base md:text-sm ${
                   isSelected
                     ? 'bg-green1 border border-green1 border-solid border-2 text-prmptrblack font-medium'
-                    : 'bg-prmptrblack  font-medium text-brown1 border border-brown2 border-2 hover:text-green1 hover:border-green1'
+                    : 'bg-prmptrblack font-medium text-brown1 border border-brown2 border-2 hover:text-green1 hover:border-green1'
                 }`}
               >
                 <span>{option.name}</span>
@@ -85,9 +85,9 @@ function CategoryOptions({
                 }`}></span>
               </button>
               
-              {/* Preview Image Popup */}
+              {/* Preview Image Popup - hide on mobile */}
               {hoveredOption?.name === option.name && option.previewImage && showPreviews && (
-                <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 z-50">
+                <div className="hidden md:block absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 z-50">
                   <div className="shadow-lg w-[240px]">
                     <img 
                       src={option.previewImage} 

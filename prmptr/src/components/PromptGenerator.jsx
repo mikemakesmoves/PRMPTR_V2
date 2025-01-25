@@ -37,13 +37,13 @@ function PromptGenerator({ prompt, onClear, AIEnhance }) {
           {prompt}
         </p>
       </div>
-      <div className="flex flex-wrap gap-4">
+      <div className="flex flex-wrap gap-2 md:gap-4">
         <button
           onClick={copyToClipboard}
-          className={`px-4 py-2 border-2 transition-all duration-200 
+          className={`px-2 py-1 md:px-4 md:py-2 text-sm md:text-base border-2 transition-all duration-200 
             ${copied 
-              ? 'bg-green1 text-prmptrblack font-bold border-brown2 min-w-[180px]' 
-              : 'bg-prmptrblack text-brown1 border-brown2 min-w-[180px] hover:border-green1 hover:text-green1 hover:shadow-xl hover:scale-105 ease-in-out duration-300'
+              ? 'bg-green1 text-prmptrblack font-bold border-brown2 min-w-[140px] md:min-w-[180px]' 
+              : 'bg-prmptrblack text-brown1 border-brown2 min-w-[140px] md:min-w-[180px] hover:border-green1 hover:text-green1 hover:shadow-xl hover:scale-105 ease-in-out duration-300'
             }`}
         >
           {copied ? 'Copied!' : 'Copy to Clipboard'}
@@ -51,7 +51,7 @@ function PromptGenerator({ prompt, onClear, AIEnhance }) {
         {AIEnhance}
         <button
           onClick={onClear}
-          className="px-4 py-2 text-prmptrblack border-2 border-brown2 hover:border-red-500 hover:text-red-500 transition-colors duration-200"
+          className="px-2 py-1 md:px-4 md:py-2 text-sm md:text-base text-prmptrblack border-2 border-brown2 hover:border-red-500 hover:text-red-500 transition-colors duration-200"
         >
           Clear All
         </button>

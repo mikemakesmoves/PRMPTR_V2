@@ -44,8 +44,8 @@ function CategoriesList({ categories, selectedCategory, onCategorySelect, select
   }, [categories, selectedCategory, onCategorySelect]);
 
   return (
-    <div className="w-full md:w-1/4 overflow-x-auto md:overflow-visible" ref={listRef}>
-      <ul className="flex md:flex-col font-bold space-x-6 md:space-x-0 md:space-y-1 p-4 whitespace-nowrap min-w-fit">
+    <div className="w-full md:w-1/4 overflow-x-auto md:overflow-visible scrollbar-hide" ref={listRef}>
+      <ul className="flex md:flex-col font-medium space-x-5 md:space-x-0 md:space-y-1 p-3 md:p-4 whitespace-nowrap min-w-fit pl-4">
         {categories.map((category) => {
           const hasSelectedOptions = selectedOptions[category.name]?.length > 0;
           return (
@@ -53,9 +53,9 @@ function CategoriesList({ categories, selectedCategory, onCategorySelect, select
               key={category.name}
               data-category={category.name}
               onClick={() => onCategorySelect(category.name)}
-              className={`cursor-pointer p-1 transition-all duration-200 ease-in-out select-none text-base ${
+              className={`cursor-pointer px-3 text-xl py-2 md:px-2 md:py-1 rounded-lg transition-all duration-200 ease-in-out select-none origin-left ${
                 category.name === selectedCategory 
-                  ? 'text-green1 font-medium md:text-2xl' 
+                  ? 'text-green1 font-medium text-xl md:text-2xl bg-prmptrblack/10' 
                   : hasSelectedOptions 
                     ? 'text-green1'
                     : 'text-brown2 hover:text-brown1'
