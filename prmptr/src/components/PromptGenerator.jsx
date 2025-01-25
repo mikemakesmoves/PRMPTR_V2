@@ -28,7 +28,7 @@ function PromptGenerator({ prompt, onClear, AIEnhance }) {
   };
 
   return (
-    <div className="w-full max-w-[1280px] p-4">
+    <div className="w-full max-w-[1280px] p-4 relative">
       <div className="min-h-[120px] md:min-h-[200px] flex items-center">
         <p 
           key={prompt} 
