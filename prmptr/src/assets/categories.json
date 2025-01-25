@@ -173,6 +173,16 @@
             "previewImage": "/previews/composition_wide.jpg"
           },
           {
+            "name": "Establishing Shot",
+            "promptText": "establishing shot ",
+            "previewImage": "/previews/composition_establishing.jpg"
+          },
+          {
+            "name": "Wide Angle",
+            "promptText": "wide angle shot ",
+            "previewImage": "/previews/composition_wideangle.jpg"
+          },
+          {
             "name": "Extreme Wide Angle",
             "promptText": "extreme wide angle ",
             "previewImage": "/previews/composition_extremewide.jpg"

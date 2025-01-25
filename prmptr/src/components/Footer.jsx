@@ -15,19 +15,6 @@ function Footer() {
               Mike Gaynor
             </a>
           </p>
-
-          <p className="flex items-center gap-2 whitespace-nowrap order-3 text-sm">
-            If you found this tool helpful, consider
-            <a 
-              href="https://buymeacoffee.com/mikegaynor" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="text-green1 hover:text-green2 transition-colors duration-200 flex items-center gap-1"
-            >
-              buying me a coffee<span>☕</span>
-            </a>
-            
-          </p>
         </div>
       </footer>
     );

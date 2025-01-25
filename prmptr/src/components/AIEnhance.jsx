@@ -38,7 +38,7 @@ function AIEnhance({ currentPrompt, onEnhancedPrompt }) {
       <button
         onClick={handleEnhance}
         disabled={isLoading || !currentPrompt || currentPrompt === "Your prompt will appear here..."}
-        className={`px-4 py-2 bg-prmptrblack text-brown1 border-2 hover:text-green1 ${
+        className={`px-4 py-2  rounded-md bg-prmptrblack text-brown1 border-2 hover:text-green1 ${
           error ? 'border-red-500' : 'border-brown2 hover:border-green1'
         } transition-colors duration-200`}
       >

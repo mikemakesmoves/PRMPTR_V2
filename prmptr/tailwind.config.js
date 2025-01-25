@@ -3,7 +3,8 @@ module.exports = {
   theme: {
     extend: {colors: {
       // Custom color palette
-      prmptrwhite: '#dbd6cc',         // Lighest Cream
+      prmptrwhite: '#dbd6cc',
+      prmptroffwhite: '#d1cabf',         // Lighest Cream
       prmptrblack: '#000000',       // Black
       brown1: '#dbd6cc',          // Muted brown
       brown2: '#736355',       // brown

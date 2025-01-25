@@ -44,13 +44,13 @@ function CategoryOptions({
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             placeholder="Search..."
-            className="w-full p-2 bg-brown1 text-s font-semibold text-prmptrblack placeholder-prmptrblack"
+            className="w-full rounded-md p-2 bg-brown1 text-s font-semibold text-prmptrblack placeholder-prmptrblack"
           />
         </div>
       )}
 
       {/* Options Grid */}
-      <div className="flex flex-wrap gap-2 relative py-6">
+      <div className="flex flex-wrap gap-2 relative  py-6">
         {/* Custom Options */}
         {customOptions.map((option) => (
           <div key={option} className="relative">
@@ -73,7 +73,7 @@ function CategoryOptions({
                 onClick={() => onOptionToggle(option.name)}
                 onMouseEnter={() => setHoveredOption(option)}
                 onMouseLeave={() => setHoveredOption(null)}
-                className={`w-full md:w-auto inline-flex items-center justify-between p-3 md:p-2 text-base md:text-sm ${
+                className={`w-full rounded-md md:w-auto inline-flex items-center justify-between p-3 md:p-2 text-base md:text-sm ${
                   isSelected
                     ? 'bg-green1 border border-green1 border-solid border-2 text-prmptrblack font-medium'
                     : 'bg-prmptrblack font-medium text-brown1 border border-brown2 border-2 hover:text-green1 hover:border-green1'
@@ -92,7 +92,7 @@ function CategoryOptions({
                     <img 
                       src={option.previewImage} 
                       alt={`Preview of ${option.name}`}
-                      className="w-[240px] h-[320px] object-cover"
+                      className="w-[240px] h-[320px] rounded-md object-cover"
                     />
                   </div>
                 </div>
@@ -116,12 +116,12 @@ function CategoryOptions({
           value={customInput}
           onChange={(e) => onCustomInput(e.target.value)}
           onKeyPress={handleKeyPress}
-          placeholder={isSubjectCategory ? "a goat on a mountain (press enter to add)" : "Or type something yourself..."}
-          className="flex-grow p-2 bg-prmptrblack border-2 border-prmptrwhite text-prmptrwhite placeholder-brown2 focus:border-green1 focus:outline-none transition-colors duration-200"
+          placeholder={isSubjectCategory ? "a goat on a mountain (press enter to add)" : "Custom entry..."}
+          className="flex-grow rounded-md p-2 bg-prmptrblack border-2 border-prmptrwhite text-prmptrwhite placeholder-brown2 focus:border-green1 focus:outline-none transition-colors duration-200"
         />
         <button
           onClick={() => onCustomInputSubmit(customInput)}
-          className={`px-4 py-2 border-2 transition-colors duration-200 ${
+          className={`px-4 py-2 border-2 rounded-md transition-colors duration-200 ${
             customInput.trim() 
               ? 'bg-green1 border-green1 text-prmptrblack hover:bg-green1/90' 
               : 'bg-prmptrblack border-prmptrwhite text-brown1 hover:bg-green1 hover:border-green1 hover:text-prmptrblack'

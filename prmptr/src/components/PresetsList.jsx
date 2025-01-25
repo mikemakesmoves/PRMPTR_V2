@@ -122,7 +122,7 @@ function PresetsList({ onPresetSelect, categoriesData }) {
                 selectedPreset === preset.name 
                   ? 'border-green1' 
                   : 'border-brown2'
-              } p-4 text-left hover:border-green1 transition-colors`}
+              } p-4 text-left rounded-md hover:border-green1 transition-colors`}
             >
               <h3 className="text-green1 text-md font-semibold mb-2">{preset.name}</h3>
               <p className="text-brown2 text-sm">{preset.description}</p>

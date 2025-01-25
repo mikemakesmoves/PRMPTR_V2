@@ -48,6 +48,7 @@ function App() {
   const [selectedOptions, setSelectedOptions] = useState(
     Object.fromEntries(categoriesData.categories.map((cat) => [cat.name, []]))
   );
+  const [showInstructions, setShowInstructions] = useState(true);
 
   // Toggle option selection
   const handleOptionToggle = (categoryName, optionName) => {
@@ -221,7 +222,7 @@ function App() {
 
   return (
     <div className="flex flex-col min-h-screen bg-prmptrblack overflow-x-hidden overscroll-none">
-      {/* Top Section - No longer sticky */}
+      {/* Top Section */}
       <div className="w-full bg-prmptrwhite">
         <Header />
         <div className="flex w-full max-w-[1280px] mx-auto px-4 mt-8 pb-8">
@@ -236,12 +237,30 @@ function App() {
             }
           />
         </div>
+
+        {/* Instructions Section */}
+        {showInstructions && (
+          <div className="w-full max-w-[800px] mx-auto bg-green1 rounded-md shadow-xl shadow-green1/20  translate-y-1/2 py-4 relative">
+            <div className="max-w-[800px] mx-auto px-10 text-sm md:text-base text-prmptrblack relative">
+              <p className="text-center font-medium pr-12 ">
+              🤖 Select categories below and choose options to build your prompt.
+              </p>
+              <button 
+                onClick={() => setShowInstructions(false)}
+                className="absolute top-1/2 -translate-y-1/2 right-10 p-1.5  hover:bg-prmptrblack/10 transition-all duration-200"
+                aria-label="Close instructions"
+              >
+                <span className="text-lg font-bold">✕</span>
+              </button>
+            </div>
+          </div>
+        )}
       </div>
 
       {/* Main Content */}
       <div className="flex-grow">
         {/* Main Section */}
-        <div className="builder flex flex-col md:flex-row w-full max-w-[1280px] mx-auto px-4 py-8">
+        <div className="builder flex flex-col md:flex-row w-full max-w-[1280px] mx-auto px-4 py-8 mt-8">
           <CategoriesList
             categories={categoriesData.categories}
             selectedCategory={selectedCategory.name}
