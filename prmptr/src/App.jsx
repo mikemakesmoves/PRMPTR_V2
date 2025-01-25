@@ -220,12 +220,10 @@ function App() {
 
 
   return (
-    <div className="flex flex-col min-h-screen bg-prmptrblack">
-      {/* Top Section - Make it sticky */}
-      <div className="sticky top-0 z-50 w-full bg-prmptrwhite">
-        {/* Header */}
+    <div className="flex flex-col min-h-screen bg-prmptrblack overflow-x-hidden">
+      {/* Top Section - No longer sticky */}
+      <div className="w-full bg-prmptrwhite">
         <Header />
-        {/* Prompt Output Section */}
         <div className="flex w-full max-w-[1280px] mx-auto px-4 mt-8 pb-8">
           <PromptGenerator 
             prompt={currentPrompt} 
@@ -240,9 +238,8 @@ function App() {
         </div>
       </div>
 
-      {/* Scrollable Content */}
+      {/* Main Content */}
       <div className="flex-grow">
-      
         {/* Main Section */}
         <div className="builder flex flex-col md:flex-row w-full max-w-[1280px] mx-auto px-4 py-8">
           <CategoriesList
@@ -276,7 +273,6 @@ function App() {
           categoriesData={categoriesData}
           selectedOptions={selectedOptions}
         />
-
       </div>
       
       {/* Footer */}
